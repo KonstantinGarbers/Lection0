@@ -1,10 +1,15 @@
-.searchbar{
-    border: none;
-    border-radius: 25px;
-    padding: 10px;
-    margin: 10px;
-    height: 20px;
-    width: 500px;
-    border:1px solid #eaeaea;
-    outline:none;
+.searchbar {
+  border: none;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 10px;
+  height: 20px;
+  width: 500px;
+  border: 1px solid #eaeaea;
+  outline: none;
 }
+
+.button {
+  border-radius: 25px;
+}
+/*# sourceMappingURL=google.css.map */
