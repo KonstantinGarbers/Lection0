@@ -4,10 +4,29 @@
         <title>Search</title>
     </head>
     <link rel="stylesheet" href="google.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    
     <body>
         <form action="https://google.com/search">
-            <input class="searchbar" type="text" name="q">
-            <input class="button" type="submit" value="Google Search">
+            
+            <div class="container">
+                <div class="row align-items-end my-row">
+                    <input class="searchbar" type="text" name="q">
+                </div>
+       
+                <div class="row justify-content-center">
+                    <div class="col-2 text-center">    
+                        <input class="button" type="submit" value="Google Search">
+                    </div>
+
+                    <div class="col-2 text-center">    
+                        <input class="button" type="submit" value="I'm feeling lucky">
+                    </div>
+
+                </div>
+            </div>
+
         </form>
     </body>
 </html>

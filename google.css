@@ -1,15 +1,30 @@
 .searchbar {
-  border: none;
-  border-radius: 25px;
-  padding: 10px;
-  margin: 10px;
-  height: 20px;
+  border: 1px solid #dcdcdc;
+  border-radius: 30px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin: 0 auto;
+  outline: 10px;
+  height: 45px;
   width: 500px;
-  border: 1px solid #eaeaea;
-  outline: none;
+  font: "Comic Sans MS";
 }
 
 .button {
-  border-radius: 25px;
+  background-color: #f5f5f5;
+  border: none;
+  color: #707070;
+  font-size: 15px;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 4px;
+  outline: none;
+}
+
+.my-row {
+  margin: 12px;
+  height: 300px;
 }
 /*# sourceMappingURL=google.css.map */
