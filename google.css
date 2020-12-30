@@ -2,9 +2,9 @@
   border: 1px solid #dcdcdc;
   border-radius: 30px;
   padding-top: 10px;
-  padding-right: 10px;
+  padding-right: 20px;
   padding-bottom: 10px;
-  padding-left: 10px;
+  padding-left: 20px;
   margin: 0 auto;
   outline: 10px;
   height: 45px;
@@ -25,6 +25,60 @@
 
 .my-row {
   margin: 12px;
-  height: 300px;
+  height: 50px;
+}
+
+.logo {
+  margin-top: 200px;
+  margin-bottom: 20px;
+}
+
+.adv-Searchbar {
+  border-radius: 1px;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  font-size: 13px;
+  height: 25px;
+  padding: 1px 8px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.form-action {
+  width: 1200px;
+  margin-top: 200px;
+}
+
+.label-row {
+  margin-bottom: 20px;
+  font-family: arial,sans-serif;
+  color: #333;
+}
+
+.adv-css {
+  font-family: arial,sans-serif;
+  color: #333;
+  line-height: 16px;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.header-links {
+  color: #333;
+  padding: 20px;
+  margin-left: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  -webkit-box-align: right;
+      -ms-flex-align: right;
+          align-items: right;
+}
+
+.header-links .header-link {
+  padding-right: 20px;
 }
 /*# sourceMappingURL=google.css.map */

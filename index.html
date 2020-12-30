@@ -6,22 +6,29 @@
     <link rel="stylesheet" href="google.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     
-    
     <body>
-        <form action="https://google.com/search">
-            
+        <div class="header-links">
+            <a href="imgSearch.html" class="header-link">Google Images</a>
+            <a href="advSearch.html" class="header-link">Google Advanced Search</a>
+        </div>
+        <form action="https://google.com/search" method="GET">
+
             <div class="container">
-                <div class="row align-items-end my-row">
+                <div class="row justify-content-center logo">
+                    <img src="google.png" alt="logo">
+                </div>
+
+                <div class="row align-items-end">
                     <input class="searchbar" type="text" name="q">
                 </div>
-       
-                <div class="row justify-content-center">
+
+                <div class="row justify-content-center my-row">
                     <div class="col-2 text-center">    
-                        <input class="button" type="submit" value="Google Search">
+                        <input class="button" type="submit" value="Google Search" name="default">
                     </div>
 
                     <div class="col-2 text-center">    
-                        <input class="button" type="submit" value="I'm feeling lucky">
+                        <input class="button" type="submit" value="I'm feeling lucky" name="btnI">
                     </div>
 
                 </div>

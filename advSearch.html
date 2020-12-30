@@ -2,13 +2,49 @@
 <html lang="en">
     <head>
         <title>Search</title>
-        <link rel="stylesheet" href="google.scss">
+        <link rel="stylesheet" href="google.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     </head>
 
     <body>
-            <form> action="https://www.google.com/advanced_search">
-                <input type="text" name="advanced">
-                <input type="submit" value="Google Advanced Search">
-            </form>
+        <div class="header-links">
+            <a href="index.html" class="header-link">Google Search</a>
+        </div>
+        <form action="https://www.google.com/search" class="form-action">
+            <div class="container">
+                <div class="row label-row">
+                    <div class="col-3">
+                        <label class="label-row">Find pages with....</label>
+                    </div>
+                </div>
+
+                <div class="row">
+          
+                </div>
+                <div class="row justify-content-center">
+                <div class="col-3 adv-css"><label for="adv1">all these words:</label></div>
+                    <div class="col-9"><input type="text" class="adv-Searchbar" type="text" id="adv1" class="form-control" name="as_q"></div>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-3 adv-css"><label for="adv1">this exact word or phrase:</label></div>
+                    <div class="col-9"><input type="text" class="adv-Searchbar" type="text" id="adv2" class="form-control" placeholder="&quot;Everything in brackets and atleast 2 words&quot;" name="as_epq"></div>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-3 adv-css"><label for="adv1">any of these words:</label></div>
+                    <div class="col-9"><input type="text" class="adv-Searchbar" type="text" id="adv3" class="form-control" placeholder="OR between words" name="as_oq"></div>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-3 adv-css"><label for="adv1">none of these words:</label></div>
+                    <div class="col-9"><input type="text" class="adv-Searchbar" type="text" id="adv4" class="form-control" placeholder="- between every word"name="as_q"></div>
+                </div>
+                     
+                <div class="row">
+                    <input class="button btn-primary" type="submit" value="Advanced Search" name="btnK">
+                </div>
+            </div>
+        </form>
     </body>
 </html>
